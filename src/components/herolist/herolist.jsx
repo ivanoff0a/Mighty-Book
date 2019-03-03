@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import HeroCard from '../herocard/herocard.jsx'
 
-export default class Herolist extends Component{
+export default class HeroList extends Component{
     render() {
-        let heroes = this.props.heroes.map( hero => {
-            return <HeroCard key={hero.name} data={hero} />
+        let heroes = this.props.heroes.map((hero, i) => {
+            return(
+                <HeroCard key={i} data={hero}/>
+            )
         })
 
         return(
             <>
-                <h1>Hero List:</h1>
-                <div className="container row">
+                <div className="herolist__container row">
                     {heroes}
                 </div>
             </>

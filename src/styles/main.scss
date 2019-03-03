@@ -1,5 +1,22 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
-body {
-	background-color: grey;
+.jumbotron,
+.set,
+.add {
+	padding-left: 15px;
+}
+
+.herolist__container {
+	margin: 10px;
+}
+
+.hero__container {
+}
+
+.hero__item {
+	margin-bottom: 40px;
+}
+
+.card-img-top {
+	height: 300px;
 }
