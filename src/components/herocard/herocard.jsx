@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 export default class HeroCard extends Component{
     render() {
-        let src = this.props.data.pic;
         return(
             <div className="col-md-4 col-sm-6 col-md-3 col-lg-3 hero__container">
                 <div className="card hero__item">

@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="061def94-391d-4e00-997a-0e4eae85c5c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/addhero/addhero.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/jumbotron/jumbotron.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/settings/settings.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="49bdc6e9-fb8a-41e6-b419-4b0df3996a3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/heropics/heropics.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/herocard/herocard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/herocard/herocard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/herolist/herolist.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/herolist/herolist.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,23 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/herolist/herolist.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="136">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -53,17 +36,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/herocard/herocard.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="41" selection-start-column="41" selection-end-column="41" />
+            <state relative-caret-position="51">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/navbar/navbar.jsx">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+            <state relative-caret-position="458">
+              <caret line="58" column="48" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="48" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -72,19 +55,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/settings/settings.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/heropics/heropics.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/addhero/addhero.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/navbar/navbar.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+            <state relative-caret-position="238">
+              <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -97,16 +89,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/jumbotron/jumbotron.jsx" />
-        <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/herocard/herocard.jsx" />
-        <option value="$PROJECT_DIR$/src/components/settings/settings.jsx" />
-        <option value="$PROJECT_DIR$/src/components/addhero/addhero.jsx" />
-        <option value="$PROJECT_DIR$/src/styles/main.scss" />
+        <option value="$PROJECT_DIR$/src/components/herolist/heroList.jsx" />
+        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/herolist/herolist.jsx" />
         <option value="$PROJECT_DIR$/src/components/navbar/navbar.jsx" />
+        <option value="$PROJECT_DIR$/src/components/herocard/herocard.jsx" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/heropics/heropics.jsx" />
+        <option value="$PROJECT_DIR$/src/styles/main.scss" />
       </list>
     </option>
   </component>
@@ -116,6 +106,7 @@
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -126,44 +117,35 @@
         <subPane>
           <expand>
             <path>
-              <item name="Mighty-Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mighty-Book" type="462c0819:PsiDirectoryNode" />
+              <item name="mighty_book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mighty_book" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Mighty-Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mighty-Book" type="462c0819:PsiDirectoryNode" />
+              <item name="mighty_book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mighty_book" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mighty_book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mighty_book" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Mighty-Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mighty-Book" type="462c0819:PsiDirectoryNode" />
+              <item name="mighty_book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mighty_book" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Mighty-Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mighty-Book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="herocard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mighty-Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mighty-Book" type="462c0819:PsiDirectoryNode" />
+              <item name="mighty_book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mighty_book" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="herolist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Mighty-Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mighty-Book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mighty-Book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mighty-Book" type="462c0819:PsiDirectoryNode" />
+              <item name="mighty_book" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mighty_book" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -175,8 +157,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HeroBook-master" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Yummy" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\Banana3\Desktop\ivanov andrew\React\mighty_book\node_modules\eslint" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -195,26 +180,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="061def94-391d-4e00-997a-0e4eae85c5c9" name="Default Changelist" comment="" />
-      <created>1551011597046</created>
+      <changelist id="49bdc6e9-fb8a-41e6-b419-4b0df3996a3a" name="Default Changelist" comment="" />
+      <created>1551112218647</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1551011597046</updated>
-      <workItem from="1551011601808" duration="788000" />
-      <workItem from="1551282806769" duration="6293000" />
-      <workItem from="1551631696945" duration="4730000" />
+      <updated>1551112218647</updated>
+      <workItem from="1551112222693" duration="5881000" />
+      <workItem from="1551717572489" duration="5452000" />
     </task>
+    <task id="LOCAL-00001" summary="Added forEach for HeroCard">
+      <created>1551118723006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551118723006</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11811000" />
+    <option name="totallyTimeSpent" value="11333000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21546261" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -223,9 +216,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3293011" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23252688" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31927133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -234,78 +227,63 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added forEach for HeroCard" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added forEach for HeroCard" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/heropics/heropics.jsx</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="425">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/jumbotron/jumbotron.jsx">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/settings/settings.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/addhero/addhero.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/herocard/herocard.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/herolist/herolist.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="224">
+          <caret line="306" column="8" selection-start-line="306" selection-start-column="8" selection-end-line="306" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/navbar/navbar.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+        <state relative-caret-position="238">
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/herolist/herolist.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -314,11 +292,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="458">
+          <caret line="58" column="48" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="48" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/herocard/herocard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/heropics/heropics.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="18" />
         </state>
       </provider>
     </entry>
