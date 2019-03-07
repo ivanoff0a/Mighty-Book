@@ -1,8 +1,18 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
+section {
+	margin-bottom: 20px;
+}
+
+.sex {
+	display: flex;
+	flex-direction: column;
+}
+
 .jumbotron,
 .set,
-.add {
+.add,
+.pics {
 	padding-left: 15px;
 }
 
@@ -13,13 +23,38 @@
 .hero__container {
 }
 
+.form__container {
+	width: 290px;
+}
+
+@media (min-width: 375px) {
+	.form__container {
+		width: 345px;
+	}
+}
+
+@media (min-width: 425px) {
+	.form__container {
+		width: 395px;
+	}
+}
+
+@media (min-width: 768px) {
+	.form__container {
+		width: 420px;
+	}
+}
+
 .hero__item {
 	margin-bottom: 40px;
+	overflow: hidden;
 }
 
 .card-img-top {
+	width: 100%;
+	height: 200px;
+	object-fit: contain;
 	background-size: contain;
-	height: 250px;
 }
 
 .heropics__item {

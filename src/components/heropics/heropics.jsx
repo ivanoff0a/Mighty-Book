@@ -11,9 +11,12 @@ export default class HeroPics extends Component {
         })
         return (
             <>
-                <div className="heropics__container row">
-                    {heroPic}
-                </div>
+                <section className="pics">
+                    <h1>Heroes' Pics</h1>
+                    <div className="heropics__container row">
+                        {heroPic}
+                    </div>
+                </section>
             </>
         )
     }
