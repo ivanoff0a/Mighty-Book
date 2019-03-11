@@ -6,6 +6,7 @@ import Jumbotron from "./components/jumbotron/jumbotron";
 import Settings from './components/settings/settings.jsx';
 import AddHero from './components/addhero/addhero.jsx';
 import HeroPics from './components/heropics/heropics.jsx';
+import Routes from './constants/Routes.js';
 
 class App extends Component {
   constructor() {
@@ -53,12 +54,12 @@ class App extends Component {
       <>
         <Navbar appName={this.state.appName}/>
         <Jumbotron appName={this.state.appName} appDesc={this.state.appDesc}/>
-        <Route exact path="/"
+        <Route exact path={Routes.HERO_LIST}
                render={(props) => <HeroList heroes={this.state.heroes}/>}/>
-        <Route path="/heroPics"
+        <Route path={Routes.HERO_PICS}
                render={(props) => <HeroPics pics={heroPicMassive}/>}/>
-        <Route path="/addHero" component={AddHero}/>
-        <Route path="/settings" component={Settings}/>
+        <Route path={Routes.ADD_HERO} component={AddHero}/>
+        <Route path={Routes.SETTINGS} component={Settings}/>
       </>
     );
   }
