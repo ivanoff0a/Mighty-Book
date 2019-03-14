@@ -45,24 +45,32 @@ class App extends Component {
   }
 
   render() {
-
-    let heroPicMassive = this.state.heroes.map( hero => {
+    console.log(this.state.heroes);
+    let heroPicMassive = this.state.heroes.map(hero => {
       return hero.pic;
     })
 
     return (
-      <>
-        <Navbar appName={this.state.appName}/>
-        <Jumbotron appName={this.state.appName} appDesc={this.state.appDesc}/>
-        <Route exact path={Routes.HERO_LIST}
-               render={(props) => <HeroList heroes={this.state.heroes}/>}/>
-        <Route path={Routes.HERO_PICS}
-               render={(props) => <HeroPics pics={heroPicMassive}/>}/>
-        <Route path={Routes.ADD_HERO} component={AddHero}/>
-        <Route path={Routes.SETTINGS} component={Settings}/>
-      </>
+        <>
+          <Navbar appName={this.state.appName}/>
+          <Jumbotron appName={this.state.appName} appDesc={this.state.appDesc}/>
+          <Route exact path={Routes.HERO_LIST}
+                 render={(props) => <HeroList heroes={this.state.heroes}/>}/>
+          <Route path={Routes.HERO_PICS}
+                 render={(props) => <HeroPics pics={heroPicMassive}/>}/>
+          <Route path={Routes.ADD_HERO}
+                 render={(props) => <AddHero {...props} addHeroCard={this.addHeroCard.bind(this)}/>}/>
+          <Route path={Routes.SETTINGS} component={Settings}/>
+        </>
     );
   }
 
+  addHeroCard = (hero) => {
+    this.setState({
+      heroes: [...this.state.heroes, hero]
+    })
+  }
+
+}
 
 export default App;

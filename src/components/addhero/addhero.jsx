@@ -1,4 +1,6 @@
 import React from 'react';
+import Routes from './../../constants/Routes';
+
 
 export default class AddHero extends React.Component {
     constructor(props) {
@@ -7,28 +9,29 @@ export default class AddHero extends React.Component {
         this.onChange = this.onChange.bind(this);
     }
 
-    onSubmit(event) {
-        let formResult = {
-                name: this.nameTextField.value,
-                desc: this.descTextField.value,
-                imageURL: this.imageURLTextField.value,
-                isMan: this.isMan
-            };
-        console.log(formResult);
-        event.preventDefault();
+    onChange(event) {
+        this.gender = event.target.value;
     }
 
-    onChange(event) {
-        this.isMan = event.target.value === 'Male';
+    onSubmit(event) {
+        event.preventDefault();
+        if(this.props.addHeroCard) {
+            this.props.addHeroCard({
+                name: this.nameTextField.value,
+                desc: this.descTextField.value,
+                pic: this.imageURLTextField.value,
+                gender: this.gender
+            });
+        }
+        this.props.history.push(Routes.HERO_LIST);
     }
 
 
     render() {
-        this.isMan = false;
         return(
             <>
                 <section className="section add">
-                    <h1>Add New Hero</h1>
+                    <h2>Add New Hero</h2>
                     <div className="form__container">
                         <form onSubmit={this.onSubmit}>
                             <div className="form-group">
@@ -62,8 +65,8 @@ export default class AddHero extends React.Component {
                                                    type="radio"
                                                    name="gridRadios"
                                                    id="gridRadios1"
-                                                   value="Female"
-                                                   checked/>
+                                                   value="female"
+                                                />
                                                 <label className="form-check-label" htmlFor="gridRadios1">
                                                     Female
                                                 </label>
@@ -74,7 +77,7 @@ export default class AddHero extends React.Component {
                                                    type="radio"
                                                    name="gridRadios"
                                                    id="gridRadios2"
-                                                   value="Male"/>
+                                                   value="male"/>
                                                 <label className="form-check-label" htmlFor="gridRadios2">
                                                     Male
                                                 </label>
@@ -82,7 +85,9 @@ export default class AddHero extends React.Component {
                                     </div>
                                 </div>
                             </fieldset>
-                            <button type="submit" className="btn btn-primary">Add hero</button>
+                            <button onClick={(event) => { this.onSubmit(event) }}
+                                    type="submit"
+                                    className="btn btn-primary">Add hero</button>
                         </form>
                     </div>
                 </section>
