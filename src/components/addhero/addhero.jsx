@@ -31,7 +31,7 @@ export default class AddHero extends React.Component {
         return(
             <>
                 <section className="section add">
-                    <h2>Add New Hero</h2>
+                    <h3>Add New Hero</h3>
                     <div className="form__container">
                         <form onSubmit={this.onSubmit}>
                             <div className="form-group">
@@ -65,7 +65,7 @@ export default class AddHero extends React.Component {
                                                    type="radio"
                                                    name="gridRadios"
                                                    id="gridRadios1"
-                                                   value="female"
+                                                   value="Female"
                                                 />
                                                 <label className="form-check-label" htmlFor="gridRadios1">
                                                     Female
@@ -77,7 +77,7 @@ export default class AddHero extends React.Component {
                                                    type="radio"
                                                    name="gridRadios"
                                                    id="gridRadios2"
-                                                   value="male"/>
+                                                   value="Male"/>
                                                 <label className="form-check-label" htmlFor="gridRadios2">
                                                     Male
                                                 </label>

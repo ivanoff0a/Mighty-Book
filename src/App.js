@@ -18,27 +18,32 @@ class App extends Component {
         {
           name: 'Thor',
           desc: 'God Of Parties',
-          pic: 'https://news.nte4.com/wp-content/uploads/2017/11/thor.jpg'
+          pic: 'https://news.nte4.com/wp-content/uploads/2017/11/thor.jpg',
+          gender: 'Male'
         },
         {
           name: 'Jimbo',
           desc: 'Starcraft nerd',
-          pic: 'http://www.fanpop.com/images/polls/19717_1_full.jpg'
+          pic: 'http://www.fanpop.com/images/polls/19717_1_full.jpg',
+          gender: 'Male'
         },
         {
           name: 'Jesus Christ',
           desc: 'Simply God',
-          pic: 'https://www.findshepherd.com/wp-content/uploads/2017/07/Jesus-Imagesthe-Second-Coming-of-Jesus-Christ.jpg'
+          pic: 'https://www.findshepherd.com/wp-content/uploads/2017/07/Jesus-Imagesthe-Second-Coming-of-Jesus-Christ.jpg',
+          gender: 'Male'
         },
         {
           name: 'Lenin',
           desc: 'The Communist',
-          pic: 'https://i1.wp.com/marinamaral.com/wp-content/uploads/2018/04/e4787-teste.jpg?w=775&ssl=1'
+          pic: 'https://i1.wp.com/marinamaral.com/wp-content/uploads/2018/04/e4787-teste.jpg?w=775&ssl=1',
+          gender: 'Male'
         },
         {
           name: 'Babushka',
           desc: 'God Of Puncake',
-          pic: 'https://dazedimg-dazedgroup.netdna-ssl.com/700/azure/dazed-prod/1250/7/1257706.jpg'
+          pic: 'https://dazedimg-dazedgroup.netdna-ssl.com/700/azure/dazed-prod/1250/7/1257706.jpg',
+          gender: 'Female'
         }
       ]
     }

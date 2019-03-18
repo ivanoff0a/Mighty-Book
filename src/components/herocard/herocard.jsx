@@ -8,7 +8,8 @@ export default class HeroCard extends Component{
                     <img src={this.props.data.pic} className="card-img-top" alt=""/>
                         <div className="card-body">
                             <h5 className="card-title">{this.props.data.name}</h5>
-                            <p className="card-text">{this.props.data.desc}</p>
+                            <p className="card-text">{this.props.data.desc}, {this.props.data.gender}</p>
+                            <p className="card-text">{this.props.data.gender}</p>
                             <a href="#" className="btn btn-primary">Skills</a>
                         </div>
                 </div>
